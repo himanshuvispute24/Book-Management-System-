@@ -1,0 +1,58 @@
+How It Works:
+Class BookCollection:
+
+Uses a dictionary (self.books) to store book titles as keys and their quantities as values.
+
+Methods:
+
+add_book: Adds a new book or updates the quantity of an existing book.
+
+remove_book: Removes a specified quantity of a book or deletes it if the quantity reaches zero.
+
+view_collection: Displays all books and their quantities.
+
+get_total_books: Calculates and displays the total number of books in the collection.
+
+Menu-Driven Interface:
+
+The main function provides a loop to display the menu and handle user input.
+
+Users can add books, remove books, view the collection, get the total count, or exit the program.
+
+Input Validation:
+
+Ensures book titles are non-empty and quantities are positive numbers.
+
+Prevents removing more books than are available.
+
+Example Usage:
+Copy
+Book Management System
+1. Add Book
+2. Remove Book
+3. View Book Collection
+4. Get Total Books
+5. Exit
+Enter your choice (1-5): 1
+Enter the book title: Python Programming
+Enter the quantity to add: 5
+Added 5 copies of 'Python Programming'.
+
+Book Management System
+1. Add Book
+2. Remove Book
+3. View Book Collection
+4. Get Total Books
+5. Exit
+Enter your choice (1-5): 3
+Book Collection:
+- 'Python Programming': 5 copies
+
+Book Management System
+1. Add Book
+2. Remove Book
+3. View Book Collection
+4. Get Total Books
+5. Exit
+Enter your choice (1-5): 4
+Total books in collection: 5
